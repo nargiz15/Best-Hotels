@@ -1,0 +1,35 @@
+.mainContent {
+  background-image: url("./../images/TopBG.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.mainContentBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8%;
+  background-color: #d1ecff;
+  position: absolute;
+  top: 10%;
+  border-radius: 12px;
+  height: -moz-max-content;
+  height: max-content;
+  width: 70%;
+  left: 15%;
+}
+
+.mainContentBg h1 {
+  font-size: 40px;
+}
+
+.mainContentBg p {
+  margin-top: 30px;
+  width: 90%;
+  line-height: 22px;
+  font-weight: 300;
+}/*# sourceMappingURL=aboutus.css.map */

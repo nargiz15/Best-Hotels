@@ -1,0 +1,27 @@
+footer{
+    background-image: $headerBgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 3em 0;
+}
+footer ul{
+    list-style: none;
+   
+}
+.secondlink{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+footer ul li>a{
+    text-decoration: none;
+    color: $whiteColor;
+    align-items: center;
+}
+
+footer span{
+    color: $whiteColor;
+    padding-top: 20px;
+}

@@ -1,0 +1,29 @@
+footer {
+  background-image: linear-gradient(45deg, #6f1e95, #007b58);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 3em 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.secondlink {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer ul li > a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+footer span {
+  color: white;
+  padding-top: 20px;
+}/*# sourceMappingURL=footer.css.map */

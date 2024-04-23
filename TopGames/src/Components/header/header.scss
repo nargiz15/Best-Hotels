@@ -1,0 +1,41 @@
+@import "./../../Variables/variables.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    background: $headerBgColor;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li{
+        list-style: none;
+        
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: $whiteColor;
+        font-size: 17px;
+        font-family: "Exo 2", sans-serif;
+    }
+}
+

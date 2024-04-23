@@ -1,0 +1,10 @@
+.text{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.firstP, .secondP{
+    font-weight: bolder;
+}
